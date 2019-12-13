@@ -10,6 +10,8 @@
 ```
 	php -S localhost:8000 router.php
 ```
+4. go to url `localhost:8000` in a web browers
+	you'll see the / route which consumes the /jokes route in play, displaying one random joke
 
 ### Notes
 The assignment called for a creating a vanilla PHP server that created an api for two calls:
