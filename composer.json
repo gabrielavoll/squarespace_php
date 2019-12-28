@@ -1,0 +1,11 @@
+{
+    "name": "gato333/no-framework",
+    "description": "Squarespace Vanilla PHP assignment",
+    "authors": [
+        {
+            "name": "Gabriela Voll",
+            "email": "gvoll333@gmail.com"
+        }
+    ],
+    "require": {}
+}
