@@ -37,6 +37,7 @@ And for this project we will add a another file inside of vhosts, for this proje
 
 
 ### How to Run with simple PHP Server
+THIS DOESNT WORK TO MAKE CURLS TO SELF, because PHP built in server only has one thread so it will stall/hang. For this reason you can hit `localhost:8000/jokes` and it will work but `localhost:8000` hangs because it curls /jokes, and then boom hangs.
 1. Pull down repo from Github
 2. if php isn't already installed locally, install it.
 3. in the terminal in the root of this directory run:
